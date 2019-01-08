@@ -11,7 +11,7 @@ namespace Home.Models
     public class Animal
     {
         public string Color { get; set; }
-        public string gender { get; set; }
+        public string Gender { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }

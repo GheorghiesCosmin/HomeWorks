@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Animals\" />
+    <Folder Include="Views\Cats\" />
+    <Folder Include="Views\Dogs\" />
+  </ItemGroup>
+
 </Project>

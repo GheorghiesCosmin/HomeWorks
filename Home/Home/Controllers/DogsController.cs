@@ -27,77 +27,78 @@ namespace Home.Controllers
         }
         private List<Animal> PopulateList()
         {
-            List<Animal> Dogs = new List<Animal>();
-            Dogs.Add(new Animal()
+            List<Animal> Dogs = new List<Animal>
             {
-                FirstName = "Cat1",
-                Color = "Black",
-                gender = "Male"
+                new Animal()
+                {
+                    FirstName = "Cat1",
+                    Color = "Black",
+                    Gender = "Male"
+                },
+                new Animal()
+                {
+                    FirstName = "Cat2",
+                    Color = "White",
+                    Gender = "Female"
 
-            });
-            Dogs.Add(new Animal()
-            {
-                FirstName = "Cat2",
-                Color = "White",
-                gender = "Female"
+                },
+                new Animal()
+                {
+                    FirstName = "Cat3",
+                    Color = "Black",
+                    Gender = "Female"
 
-            });
-            Dogs.Add(new Animal()
-            {
-                FirstName = "Cat3",
-                Color = "Black",
-                gender = "Female"
+                },
+                new Animal()
+                {
+                    FirstName = "Cat4",
+                    Color = "Yellow",
+                    Gender = "Female"
 
-            });
-            Dogs.Add(new Animal()
-            {
-                FirstName = "Cat4",
-                Color = "Yellow",
-                gender = "Female"
+                },
+                new Animal()
+                {
+                    FirstName = "Cat5",
+                    Color = "White",
+                    Gender = "Male"
 
-            });
-            Dogs.Add(new Animal()
-            {
-                FirstName = "Cat5",
-                Color = "White",
-                gender = "Male"
+                },
+                new Animal()
+                {
+                    FirstName = "Cat6",
+                    Color = "Yellow",
+                    Gender = "Male"
 
-            });
-            Dogs.Add(new Animal()
-            {
-                FirstName = "Cat6",
-                Color = "Yellow",
-                gender = "Male"
+                },
+                new Animal()
+                {
+                    FirstName = "Cat7",
+                    Color = "Black",
+                    Gender = "Female"
 
-            });
-            Dogs.Add(new Animal()
-            {
-                FirstName = "Cat7",
-                Color = "Black",
-                gender = "Female"
+                },
+                new Animal()
+                {
+                    FirstName = "Cat8",
+                    Color = "White",
+                    Gender = "Male"
 
-            });
-            Dogs.Add(new Animal()
-            {
-                FirstName = "Cat8",
-                Color = "White",
-                gender = "Male"
+                },
+                new Animal()
+                {
+                    FirstName = "Cat9",
+                    Color = "Yellow",
+                    Gender = "Female"
 
-            });
-            Dogs.Add(new Animal()
-            {
-                FirstName = "Cat9",
-                Color = "Yellow",
-                gender = "Female"
+                },
+                new Animal()
+                {
+                    FirstName = "Cat10",
+                    Color = "White",
+                    Gender = "Female"
 
-            });
-            Dogs.Add(new Animal()
-            {
-                FirstName = "Cat10",
-                Color = "White",
-                gender = "Female"
-
-            });
+                }
+            };
 
             return Dogs;
         }
