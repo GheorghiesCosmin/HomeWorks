@@ -11,7 +11,7 @@ namespace Home.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View("List");
         }
 
 
@@ -20,9 +20,10 @@ namespace Home.Controllers
             var animals = PopulateList();
             if (Age.HasValue)
             {
-                // animals = animals.Where(x => x.Color == Age.Value).ToList();
+
                 return View(animals);
             }
+
             return View(animals);
         }
         private List<Animal> PopulateList()

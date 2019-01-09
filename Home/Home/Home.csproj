@@ -11,9 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Animals\" />
     <Folder Include="Views\Cats\" />
-    <Folder Include="Views\Dogs\" />
   </ItemGroup>
 
 </Project>

@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Diagnostics.Views;
 using Home.Models;
 
 namespace Home.Controllers
@@ -12,9 +13,9 @@ namespace Home.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View("List");
         }
-
+        [HttpGet]
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
